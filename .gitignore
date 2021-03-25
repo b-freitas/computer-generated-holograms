@@ -1,0 +1,11 @@
+### List of files and folders to be ignored by the version control system (git) ###
+
+
+## Python cache ##
+__pycache__*
+
+## VSCode configuration ##
+.vscode/*
+
+## Virtual Enviroment ##
+env/*
