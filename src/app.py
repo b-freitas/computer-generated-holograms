@@ -39,7 +39,6 @@ def generate_mask(ell=0):
     ax.pcolormesh(mask, cmap='gray', shading='gouraud')
     buf = BytesIO()
     fig.savefig(buf, format="png")
-    data = base64.b64encode(buf.getbuffer()).decode("ascii")
     FigureCanvas(fig).print_png(buf)
     return Response(buf.getvalue(), mimetype="image/png")
 
