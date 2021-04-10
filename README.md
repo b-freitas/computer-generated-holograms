@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is an web application in Python 3 containing source code to make holograms used in gaussian beams to generate OAM beams. 
+This project is a web application developed using Python 3. Source code located in src folder contain the method to create holograms that are used in gaussian beams experiments generating OAM beams. 
 
 Created by master's degree students of the NNOAM Group from FT UNICAMP - BRAZIL.
 
